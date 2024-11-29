@@ -1,9 +1,0 @@
-{
-    "diagnostics.globals": [
-        "vim",
-        "configs"
-    ],
-    "diagnostics.disable": [
-        "trailing-space"
-    ]
-}
