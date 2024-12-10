@@ -15,6 +15,7 @@ vim.keymap.set("n", "<c-x>", ":tabclose<cr>") -- close current tab
 vim.keymap.set("n", "<c-n>", ":tabn<cr>") --  go to next tab
 vim.keymap.set("n", "<c-u>", ":tabp<cr>") --  go to previous tab
 vim.keymap.set("n","<leader>nh", ":nohl<cr>",{desc = "clear search highlights"})
+vim.keymap.set("n","<leader>c",":Telescope colorscheme<CR>")
 -- copy the selected text to the system clipboard in visual mode
 vim.api.nvim_set_keymap('v', '<leader>y', '"+y', { noremap = true, silent = true })
 
